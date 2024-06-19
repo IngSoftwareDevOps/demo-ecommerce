@@ -5,6 +5,7 @@ This repo is for demo of e-commerce example.
 ## Setup Development Environment
 
 - Create directory: `mkdir -p $HOME/Projects/ITS`
+- Move into it: cd $HOME/Projects/ITS
 - Clone this repo: `git clone git@github.com:IngSoftwareDevOps/demo-ecommerce.git`
 - Move into it: cd $HOME/Projects/ITS/demo-ecommerce
 - Setup env: `cp .env.local .env` (controllare i valori dei path)
