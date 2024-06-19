@@ -29,6 +29,7 @@
         "sindria/module-catalog-search": "@dev",
         "sindria/module-cms": "@dev",
         "sindria/module-contact": "@dev",
+        "sindria/module-helloworld": "1.0.0",
         "sindria/module-landing-page": "@dev",
         "sindria/module-marketplace": "@dev",
         "sindria/module-newsletter": "@dev",
