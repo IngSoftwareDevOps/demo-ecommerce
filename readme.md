@@ -20,3 +20,10 @@ This repo is for demo of e-commerce example.
 
 - Delete product files: `rm src/app/etc/config.php` AND `rm src/app/etc/env.php`
 - Destroy containers and volumes: `docker compose down -v` OR `docker-compose down -v`
+
+## Utility commands
+
+- Enter into container: `docker exec -it demo-ecommerce bash`
+- Login as sindria user: `su sindria`
+- Clean magento cache: `php bin/magento cache:clean` 
+- Reindex magento catalog: `php bin/magento indexer:reindex`
