@@ -1,4 +1,4 @@
-# Reporting Security Issues
+# Reporting Security Issues h
 
 Magento values the contributions of the security research community, and we look forward to working with you to minimize risk to Magento merchants. 
 
