@@ -28,6 +28,8 @@ This repo is for demo of e-commerce example.
 
 ## Utility commands
 
+- Watch all container logs: `docker compose logs -f`
+- Watch specific container logs: `docker compose logs -f <service>`
 - Enter into container: `docker exec -it demo-ecommerce bash`
 - Login as sindria user: `su sindria`
 - Clean magento cache: `php bin/magento cache:clean` 
