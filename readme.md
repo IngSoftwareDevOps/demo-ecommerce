@@ -16,6 +16,10 @@ This repo is for demo of e-commerce example.
 - Install dependencies: `composer install` (after this exit)
 - Install product: `bash bin/magento_setup.sh Mario Rossi mario.rossi@sindria.org mario.rossi admin123`
 
+## Common errors
+
+- Magento permissions: `bash bin/magento_fix_permissions.sh`
+
 ## Destroy local env
 
 - Delete product files: `rm src/app/etc/config.php` AND `rm src/app/etc/env.php`
