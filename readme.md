@@ -25,14 +25,14 @@ This repo is for demo of e-commerce example.
 
 If you have problem with db service try comment this line on docker-compose.yml
 
-yaml
-```
+
+```yaml
 command: [ "--default-authentication-plugin=mysql_native_password" ]
 ```
 
 INTO
 
-```
+```yaml
 #command: [ "--default-authentication-plugin=mysql_native_password" ]
 ```
 
