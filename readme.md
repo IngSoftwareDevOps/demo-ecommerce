@@ -10,6 +10,7 @@ This repo is for demo of e-commerce example.
 - Move into it: cd $HOME/Projects/ITS/demo-ecommerce
 - Setup env: `cp .env.local .env` (controllare i valori dei path)
 - Setup docker compose: `cp docker-compose.local.yml docker-compose.yml`
+- Setup auth.json: `cp assets/auth.json src/auth.json`
 - Start environment: `docker-compose up -d`
 - Enter into container: `docker exec -it demo-ecommerce bash`
 - De-escalate privileges: `su sindria`
