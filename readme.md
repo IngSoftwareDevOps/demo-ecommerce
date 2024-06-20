@@ -27,3 +27,5 @@ This repo is for demo of e-commerce example.
 - Login as sindria user: `su sindria`
 - Clean magento cache: `php bin/magento cache:clean` 
 - Reindex magento catalog: `php bin/magento indexer:reindex`
+
+NB: *lanciare sempre i comandi magento e composer come utente sindria*
