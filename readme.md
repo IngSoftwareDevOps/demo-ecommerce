@@ -14,7 +14,7 @@ This repo is for demo of e-commerce example.
 - Start environment: `docker-compose up -d`
 - Enter into container: `docker exec -it demo-ecommerce bash`
 - De-escalate privileges: `su sindria`
-- Install dependencies: `composer install` (after this exit)
+- Install dependencies: `composer install` (after this exit twice from container)
 - Install product: `bash bin/magento_setup.sh Mario Rossi mario.rossi@sindria.org mario.rossi admin123`
 
 ## Common errors
