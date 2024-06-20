@@ -20,6 +20,8 @@ This repo is for demo of e-commerce example.
 
 - Magento permissions: `bash bin/magento_fix_permissions.sh`
 - Magento frontend: `bash bin/magento_flush_frontend.sh`
+- Magento generated: `bash bin/magento_clean_generated.sh`
+- Magento var: `bash bin/magento_clean_var.sh`
 
 ## Destroy local env
 
