@@ -15,3 +15,8 @@ This repo is for demo of e-commerce example.
 - De-escalate privileges: `su sindria`
 - Install dependencies: `composer install` (after this exit)
 - Install product: `bash bin/magento_setup.sh Mario Rossi mario.rossi@sindria.org mario.rossi admin123`
+
+## Destroy local env
+
+- Delete product files: `rm src/app/etc/config.php` AND `rm src/app/etc/env.php`
+- Destroy containers and volumes: `docker compose down -v` OR `docker-compose down -v`
