@@ -19,6 +19,7 @@ This repo is for demo of e-commerce example.
 ## Common errors
 
 - Magento permissions: `bash bin/magento_fix_permissions.sh`
+- Magento frontend: `bash bin/magento_flush_frontend.sh`
 
 ## Destroy local env
 
