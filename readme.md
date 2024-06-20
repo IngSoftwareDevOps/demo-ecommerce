@@ -23,6 +23,20 @@ This repo is for demo of e-commerce example.
 - Magento generated: `bash bin/magento_clean_generated.sh`
 - Magento var: `bash bin/magento_clean_var.sh`
 
+If you have problem with db service try comment this line on docker-compose.yml
+
+yaml
+```
+command: [ "--default-authentication-plugin=mysql_native_password" ]
+```
+
+INTO
+
+```
+#command: [ "--default-authentication-plugin=mysql_native_password" ]
+```
+
+
 ## Destroy local env
 
 - Delete product files: `rm src/app/etc/config.php` AND `rm src/app/etc/env.php`
