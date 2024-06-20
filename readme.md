@@ -32,6 +32,7 @@ This repo is for demo of e-commerce example.
 - Watch specific container logs: `docker compose logs -f <service>`
 - Enter into container: `docker exec -it demo-ecommerce bash`
 - Login as sindria user: `su sindria`
+- Watch magento logs: `tail -f var/log/debug.log`
 - Clean magento cache: `php bin/magento cache:clean` 
 - Reindex magento catalog: `php bin/magento indexer:reindex`
 
